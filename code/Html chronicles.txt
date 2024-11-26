@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicles of Thought</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Chronicles of Thought</h1>
+            <p>Exploring Philosophy, Literature, Art, and History</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#literature">Literature</a></li>
+                <li><a href="#art">Art</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <!-- Search Bar -->
+        <form action="#" method="get" class="search-form">
+            <input type="text" name="search" placeholder="Search articles..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Chronicles of Thought</h2>
+            <p>Welcome to Chronicles of Thought, where we explore the timeless realms of philosophy, literature, art, and history. Our mission is to foster deep intellectual exploration and create discussions that matter.</p>
+        </section>
+
+        <section id="literature">
+            <h2>Literature</h2>
+            <p>Delve into the great works of literature that have shaped human culture and philosophy.</p>
+            <div class="post">
+                <img src="images/literature.jpg" alt="Literature" class="post-image">
+                <h3><a href="#">The Great Gatsby: An Analysis of the American Dream</a></h3>
+                <p>This article explores the complex themes of the American Dream in Fitzgerald's classic novel.</p>
+            </div>
+            <div class="post">
+                <img src="images/tolstoy.jpg" alt="Tolstoy" class="post-image">
+                <h3><a href="#">Tolstoy and the Meaning of Life</a></h3>
+                <p>How Tolstoy’s philosophy of life can still resonate in today’s world.</p>
+            </div>
+        </section>
+
+        <section id="art">
+            <h2>Art</h2>
+            <p>Discover how art has influenced and been influenced by philosophy throughout the ages.</p>
+            <div class="post">
+                <img src="images/surrealism.jpg" alt="Surrealism Art" class="post-image">
+                <h3><a href="#">Surrealism and Existentialism</a></h3>
+                <p>Examining the connections between surrealist art and existential philosophy.</p>
+            </div>
+            <div class="post">
+                <img src="images/classical_art.jpg" alt="Classical Art" class="post-image">
+                <h3><a href="#">The Role of Beauty in Classical Art</a></h3>
+                <p>A deep dive into the relationship between beauty and art in classical philosophy.</p>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>History</h2>
+            <p>Learn about historical events through the lens of great thinkers and their timeless ideas.</p>
+            <div class="post">
+                <img src="images/enlightenment.jpg" alt="Enlightenment" class="post-image">
+                <h3><a href="#">The Enlightenment and Modern Philosophy</a></h3>
+                <p>How the Enlightenment reshaped our thinking about freedom and reason.</p>
+            </div>
+            <div class="post">
+                <img src="images/renaissance.jpg" alt="Renaissance" class="post-image">
+                <h3><a href="#">How the Renaissance Changed Art and Science</a></h3>
+                <p>The profound impacts of the Renaissance on both the arts and scientific thought.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chronicles of Thought. All rights reserved.</p>
+    </footer>
+</body>
+</html>
